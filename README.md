@@ -15,10 +15,13 @@ Aquesta secció explica com utilitzar la plantilla proporcionada en aquest repos
     - LaTeX: Descarrega i instal·la un distribució de LaTeX com MiKTeX o TeX Live.
   - Pas 2: Navegar fins al Directori del Fitxer
     - Obre el terminal o la línia de comandaments i canvia el directori al lloc on es troba plantilla.md.
-  ```sh cd /ruta/al/teu/directori```
+
+```sh cd /ruta/al/teu/directori```
+
   - Pas 3: Executar la Comanda Pandoc
     - Executa la comanda següent per convertir el fitxer Markdown (plantilla.md) a PDF:
-  ``` sh pandoc plantilla.md -o sortida.pdf --template eisvogel --listings ```
+  
+``` sh pandoc plantilla.md -o sortida.pdf --template eisvogel --listings ```
 
 ### Exemples
 
