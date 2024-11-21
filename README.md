@@ -7,12 +7,24 @@ Aquesta secció explica com utilitzar la plantilla proporcionada en aquest repos
 
 ### Instruccions d'Ús
 
-1. **Descarregar la plantilla**: Descarregueu el fitxer de la plantilla del repositori i guardeu-lo al vostre directori de treball.
-2. **Edició de la plantilla**: Obriu el fitxer amb el vostre editor de text preferit. Podeu editar el contingut de la plantilla segons les vostres necessitats.
-3. **Personalització**: Assegureu-vos de personalitzar tots els camps marcats com a personalitzables, com ara títols, subtítols, llistes i altres seccions rellevants.
-4. **Guardar els canvis**: Un cop hàgiu acabat de personalitzar la plantilla, guardeu els canvis realitzats.
-5. **Utilització**: Ara podeu utilitzar la plantilla per al vostre projecte, documentació o qualsevol altre ús que necessiteu.
+1. **Descarregar la plantilla**
+2. **Edició de la plantilla**
+3. **Convertir plantilla.md a PDF amb Pandoc i LaTeX**
+  - Pas 1: Instal·lar Pandoc i LaTeX
+    - Pandoc: Descarrega i instal·la Pandoc des del lloc web oficial de Pandoc.
+    - LaTeX: Descarrega i instal·la un distribució de LaTeX com MiKTeX o TeX Live.
+  - Pas 2: Navegar fins al Directori del Fitxer
+    - Obre el terminal o la línia de comandaments i canvia el directori al lloc on es troba plantilla.md.
+  cd /ruta/al/teu/directori
+  - Pas 3: Executar la Comanda Pandoc
+    - Executa la comanda següent per convertir el fitxer Markdown (plantilla.md) a PDF:
+  pandoc plantilla.md -o sortida.pdf --template eisvogel --listings
 
 ### Exemples
+
+
+
+
+
 
 
