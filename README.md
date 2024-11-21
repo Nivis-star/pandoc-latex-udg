@@ -17,7 +17,7 @@ Aquesta secció explica com utilitzar la plantilla proporcionada en aquest repos
     - Obre el terminal o la línia de comandaments i canvia el directori al lloc on es troba plantilla.md.
 
         ```sh
-      cd/elTeuDirectori
+      cd /elTeuDirectori
         ```
 
   - Pas 3: Executar la Comanda Pandoc
